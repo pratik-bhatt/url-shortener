@@ -61,10 +61,10 @@ You can encode URLs directly from the command line using the Artisan command pro
 
 I have created two artisan commands.
 
-1. php artisan app:encode-url {original-url}
+1. ```bash php artisan app:encode-url {original-url}  ```
    To shorten the original URL
 
-2. php artisan app:decode-url {shorten-url}
+2. ```bash php artisan app:decode-url {shorten-url} ```
    To get Original URL from shorten URL
 
 ### -----------------------------------------------------------------------
